@@ -1,0 +1,19 @@
+{
+  "name": "chaoran.github.io",
+  "version": "1.0.0",
+  "description": "My personal website.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chaoran/chaoran.github.io.git"
+  },
+  "author": "Chaoran Yang",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/chaoran/chaoran.github.io/issues"
+  },
+  "homepage": "https://github.com/chaoran/chaoran.github.io#readme"
+}
