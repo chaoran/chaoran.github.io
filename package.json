@@ -18,5 +18,8 @@
   "homepage": "https://github.com/chaoran/chaoran.github.io#readme",
   "devDependencies": {
     "express": "^4.13.4"
+  },
+  "dependencies": {
+    "webpack": "^1.13.2"
   }
 }
