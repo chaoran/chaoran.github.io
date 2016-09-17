@@ -14,4 +14,13 @@ module.exports = {
         path: PUBLIC_DIR,
         filename: 'bundle.js'
     },
+    module: {
+        loaders: [
+            {
+                test: /\.jsx?/,
+                include: SRC_DIR,
+                loader: 'babel'
+            },
+        ],
+    },
 };

@@ -1,25 +1,28 @@
 {
-  "name": "chaoran.github.io",
-  "version": "1.0.0",
-  "description": "My personal website.",
-  "main": "index.html",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/chaoran/chaoran.github.io.git"
-  },
-  "author": "Chaoran Yang",
-  "license": "GPL-3.0",
-  "bugs": {
-    "url": "https://github.com/chaoran/chaoran.github.io/issues"
-  },
-  "homepage": "https://github.com/chaoran/chaoran.github.io#readme",
-  "devDependencies": {
-    "express": "^4.13.4"
-  },
-  "dependencies": {
-    "webpack": "^1.13.2"
-  }
+    "name": "chaoran.github.io",
+    "version": "2.0.0",
+    "description": "My personal website.",
+    "main": "index.html",
+    "scripts": {
+        "dev": "webpack -d --watch",
+        "build": "webpack -p"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/chaoran/chaoran.github.io.git"
+    },
+    "author": "Chaoran Yang",
+    "license": "BSD",
+    "bugs": {
+        "url": "https://github.com/chaoran/chaoran.github.io/issues"
+    },
+    "homepage": "https://github.com/chaoran/chaoran.github.io#readme",
+    "dependencies": {
+        "babel-loader": "^6.2.5",
+        "babel-preset-es2015": "^6.14.0",
+        "babel-preset-react": "^6.11.1",
+        "react": "^15.3.1",
+        "react-dom": "^15.3.1",
+        "webpack": "^1.13.2"
+    }
 }
